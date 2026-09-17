@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kaelen Song — Motion Designer & Video Editor</title>
+    <link rel="stylesheet" href="style/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600;700&family=Nova+Mono&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Average+Sasns&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" href="images/favicon.png">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navigation">
+        <div class="nav-container">
+            <div class="nav-left">
+                <a href="/" class="nav-logo">
+                    <!-- <img src="images/KSLogoLarger.png" alt="Kaelen Song Logo"> -->
+                    KAELEN SONG</a>
+            </div>
+            <div class="nav-right">
+                <button class="hamburger" id="hamburger">
+                    <span></span>
+                    <span></span>
+                </button>
+                <ul class="nav-menu" id="navMenu">
+                    <li><a href="#work" class="nav-link">Work</a></li>
+                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+        <!-- <p class="hero-specialties">Motion Design <span class="hero-plus">+</span> Video Editing <span class="hero-plus">+</span> Creative Marketing</p> -->
+        <div class="horiz-line">
+            <ul class="dot-container">
+                <li class="dot"><a href=""></a></li>
+            </ul>
+        </div>
+    </nav>
+ 
+    <main>
+        <!-- Hero Section -->
+        <section class="hero" id="hero">
+            <div class="hero-content">
+                <h1 class="hero-intro">Hi, I'm <span class="hero-name">Kaelen
+                    <span class="hero-sun">&#9728 </span><br></span></h1>
+                <h1 class="hero-subtitle">...a motion designer and video editor who makes clips, logos and ideas jibe!</h1>
+                <!-- <p class="hero-subtitle">I make clips, logos and ideas, move, jump and <span id="dance"> dance!</span></p> -->
+            </div>
+        </section>
+ 
+        <!-- Motion Reel Section -->
+        <section class="motion-reel" id="motion-reel">
+            <div class="reel-container">
+                <div class="video-wrapper">
+                    <div class="video-container">
+                        <iframe 
+                            src="https://player.vimeo.com/video/1221025411?autoplay=1&muted=1&loop=1&title=0&byline=0&portrait=0" 
+                            width="100%" 
+                            height="100%" 
+                            frameborder="0" 
+                            allow="autoplay; fullscreen; picture-in-picture" 
+                            allowfullscreen
+                            class="reel-video">
+                        </iframe>
+                    </div>
+                </div>
+                <div class="reel-label">
+                    <span class="label-text">MOTION REEL</span>
+                    <span class="label-divider">/</span>
+                    <span class="label-year">2026</span>
+                </div>
+            </div>
+        </section>
+ 
+        <section class="selected-work" id="work">
+            <div class="work-header">
+                <h2 class="section-title">Selected Work</h2>
+                <div class="filter-buttons">
+                    <button class="filter-btn active" data-filter="all">All</button>
+                    <button class="filter-btn" data-filter="motion">Motion</button>
+                    <button class="filter-btn" data-filter="video">Video</button>
+                    <button class="filter-btn" data-filter="social">Social</button>
+                </div>
+            </div>
+ 
+            <div class="projects-grid">
+                <!-- Project 01 -->
+                <article class="project-item accent-orange" data-category="motion">
+                    <div class="project-number-large">01</div>
+                    <div class="project-content">
+                    <div class="project-visual">
+                        <a href="projects/mass-starvation.html" class="project-img-btn">
+                            <img src="images/massStarvationStill.jpg" 
+                                data-hover="images/massStarvation.gif" 
+                                class="hover-gif project-image" 
+                                alt="Mass Starvation Moving Project Cover">
+                        </a>
+                        <!-- <iframe 
+                            src="https://www.youtube-nocookie.com/embed/jPe59tEF7eY?autoplay=1&mute=1&loop=1&playlist=jPe59tEF7eY&controls=0&disablekb=1&fs=0&rel=0&modestbranding=1"
+                            title="Mass Starvation Title Card" 
+                            frameborder="0" 
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                            allowfullscreen>
+                        </iframe> -->
+                    </div>
+                        <div class="project-info">
+                            <div class="project-header">
+                                <div class="project-title-group">
+                                    <span class="project-number">01</span>
+                                    <h3 class="project-title">Mass Starvation Title Card</h3>
+                                </div>
+                            </div>
+                            <p class="project-description">Animated title sequence for the World Peace Foundation's 
+                                            Mass Starvation research pillar. Designed to lead into the foundation's existing still graphic designs.</p>
+                            <div class="project-meta">
+                                <span class="meta-tag">Motion Design</span>
+                                <span class="meta-year">2026</span>
+                            </div>
+                            <a href="projects/mass-starvation.html" class="project-link">
+                                <span>VIEW PROJECT</span>
+                                <span class="arrow">→</span>
+                            </a>
+                        </div>
+                    </div>
+                </article>
+ 
+                <!-- Project 02 -->
+                <article class="project-item accent-blue" data-category="motion">
+                    <div class="project-number-large">02</div>
+                    <div class="project-content">
+                    <div class="project-visual">
+                        <a href="projects/ccbst.html" class="project-img-btn">
+                            <img src="images/ccbstCover.png"  
+                                class="project-image" 
+                                alt="CCBST Cover">
+                        </a>
+                    </div>
+                        <div class="project-info">
+                            <div class="project-header">
+                                <div class="project-title-group">
+                                    <span class="project-number">02</span>
+                                    <h3 class="project-title">CCBST Logo Animation</h3>
+                                </div>
+                            </div>
+                            <p class="project-description">A  logo reveal for California College of Business, Science and Technology, meant 
+                                to reflect the accessibility and adaptability of online learning for today's on-the-go student. Designed to 
+                                look convey modernity and academic authority.</p>
+                            <div class="project-meta">
+                                <span class="meta-tag">Motion Design, Graphic Design</span>
+                                <span class="meta-year">2026</span>
+                            </div>
+                            <a href="projects/ccbst.html" class="project-link">
+                                <span>VIEW PROJECT</span>
+                                <span class="arrow">→</span>
+                            </a>
+                        </div>
+                    </div>
+                </article>
+ 
+                <!-- Project 03 -->
+                <article class="project-item accent-mint" data-category="video">
+                    <div class="project-number-large">03</div>
+                    <div class="project-content">
+                    <div class="project-visual">
+                        <a href="projects/hype-builder.html" class="project-img-btn">
+                            <img src="images/hypeBuilder.png"  
+                                class="project-image" 
+                                alt="Hype Builder Podcast Cover">
+                        </a>
+                    </div>
+                        <div class="project-info">
+                            <div class="project-header">
+                                <div class="project-title-group">
+                                    <span class="project-number">03</span>
+                                    <h3 class="project-title">Podcast "Hype Builder"</h3>
+                                </div>
+                            </div>
+                            <p class="project-description">A motion graphics promo for the Disrupting Peace podcast, created to build anticipation ahead of Season 4's launch. Gives our existing audience a "Behind the Scenes" look at the podcast's production.</p>
+                            <div class="project-meta">
+                                <span class="meta-tag">Motion Design</span>
+                                <span class="meta-year">2026</span>
+                            </div>
+                            <a href="projects/hype-builder.html" class="project-link">
+                                <span>VIEW PROJECT</span>
+                                <span class="arrow">→</span>
+                            </a>
+                        </div>
+                    </div>
+                </article>
+ 
+                <!-- Project 04 -->
+                <article class="project-item accent-coral" data-category="motion">
+                    <div class="project-number-large">04</div>
+                    <div class="project-content">
+                    <div class="project-visual">
+                        <a href="projects/apocalypse.html" class="project-img-btn">
+                            <img src="images/apoc3.png"  
+                                class="project-image" 
+                                alt="Apocalypse Video Game Cover">
+                        </a>
+                    </div>
+                        <div class="project-info">
+                            <div class="project-header">
+                                <div class="project-title-group">
+                                    <span class="project-number">04</span>
+                                    <h3 class="project-title">Apocalypse Video Game UI</h3>
+                                </div>
+                            </div>
+                            <p class="project-description">An animated UI sequence for a fictional post-apocalyptic video game, built entirely in After Effects. Combines hand-illustrated assets, real green screen footage, and 2D animation to simulate a fully playable game interface.</p>
+                            <div class="project-meta">
+                                <span class="meta-tag">Motion Design</span>
+                                <span class="meta-year">2025</span>
+                            </div>
+                            <a href="projects/apocalypse.html" class="project-link">
+                                <span>VIEW PROJECT</span>
+                                <span class="arrow">→</span>
+                            </a>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </section>
+ 
+        <!-- What I Do Section -->
+        <!-- <section class="what-i-do" id="what-i-do">
+            <h2 class="section-title">What I Do</h2>
+            <div class="services-grid">
+                <div class="service-column">
+                    <div class="service-number">01</div>
+                    <h3 class="service-title">MOTION DESIGN</h3>
+                    <ul class="service-list">
+                        <li>Brand animation</li>
+                        <li>Title sequences</li>
+                        <li>2D animation</li>
+                        <li>Logo animation</li>
+                        <li>Explainers</li>
+                        <li>Motion graphics</li>
+                    </ul>
+                </div>
+ 
+                <div class="service-column">
+                    <div class="service-number">02</div>
+                    <h3 class="service-title">VIDEO</h3>
+                    <ul class="service-list">
+                        <li>Video editing</li>
+                        <li>Social video</li>
+                        <li>Short-form content</li>
+                        <li>Motion graphics</li>
+                        <li>Post-production</li>
+                    </ul>
+                </div>
+ 
+                <div class="service-column">
+                    <div class="service-number">03</div>
+                    <h3 class="service-title">SOCIAL</h3>
+                    <ul class="service-list">
+                        <li>Social content</li>
+                        <li>Content strategy</li>
+                        <li>Creative direction</li>
+                        <li>Social campaigns</li>
+                        <li>Short-form video</li>
+                        <li>Visual identity</li>
+                    </ul>
+                </div>
+            </div>
+        </section> -->
+ 
+        <!-- Social Content Section
+        <section class="social-content" id="social">
+            <div class="social-header">
+                <h2 class="section-title">SOCIAL / CONTENT</h2>
+                <a href="#" class="cta-button">
+                    <span>VIEW SOCIAL WORK</span>
+                    <span class="arrow">→</span>
+                </a>
+            </div>
+            <div class="social-grid">
+                <div class="social-item" style="background: linear-gradient(135deg, #FF895C 0%, #F47C80 100%);"></div>
+                <div class="social-item" style="background: linear-gradient(135deg, #63B9F5 0%, #5A9FD4 100%);"></div>
+                <div class="social-item" style="background: linear-gradient(135deg, #58CDBE 0%, #4AB8A8 100%);"></div>
+                <div class="social-item" style="background: linear-gradient(135deg, #F47C80 0%, #F56B6F 100%);"></div>
+                <div class="social-item" style="background: linear-gradient(135deg, #A3E635 0%, #8FCC1F 100%);"></div>
+                <div class="social-item" style="background: linear-gradient(135deg, #FF895C 0%, #F47C80 100%);"></div>
+            </div>
+        </section>
+  -->
+        <!-- About Section
+        <section class="about" id="about">
+            <div class="about-container">
+                <div class="about-content">
+                    
+                    <div class="about-img-content">
+                        <img src="images/KSHeadshot.jpg" alt="Kaelen Song Portrait" class="about-image">
+                        <div class="about-text">
+                            <h2 class="about-title">HI, I'M KAELEN.</h2>
+                            <p class="about-descript">I'm a motion designer, video editor and creative marketer based in Los Angeles. 
+                            I like turning ideas into visual systems, moving images and content people actually want to watch.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="about-info">
+                                <div class="info-column">
+                                    <h4 class="info-label">CURRENTLY</h4>
+                                    <ul class="info-list">
+                                        <li>Motion Design</li>
+                                        <li>Video Editing</li>
+                                        <li>Social Content</li>
+                                        <li>Creative Marketing</li>
+                                    </ul>
+                                </div>
+            
+                                <div class="info-column">
+                                    <h4 class="info-label">TOOLS</h4>
+                                    <ul class="info-list">
+                                        <li>After Effects</li>
+                                        <li>Premiere Pro</li>
+                                        <li>Photoshop</li>
+                                        <li>Canva</li>
+                                        <li>Figma</li>
+                                    </ul>
+                                </div>
+                    </div>
+                    <div class="about-buttons">
+                        <a href="#" class="cta-button">
+                            <span>RESUME</span>
+                            <span class="arrow">→</span>
+                        </a> 
+                        <a href="https://www.linkedin.com/in/kaelensong/" class="cta-button">
+                            <span>LINKEDIN</span>
+                            <span class="arrow">→</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section> -->
+
+<section class="about" id="about">
+  <div class="about-container">
+    <div class="about-grid">
+
+      <!-- Left: image -->
+      <div class="about-media">
+        <div class="about-image">
+            <img src="images/KSHeadshot.jpg" alt="Kaelen Song Portrait">
+        </div>
+      </div>
+
+      <!-- Right: content -->
+      <div class="about-content">
+
+        <div class="about-header">
+          <h2 class="about-title">About me</h2>
+          <p class="about-descript">
+            I am driven by a passion for digital storytelling, always striving to create exceptionally memorable content. 
+            I have a diverse background in the digital arts, from hand-drawn animation to long form to short form video editing, 
+            I'm always excited to bring new ideas to life. Let's create something great together!
+          </p>
+        </div>
+
+        <div class="about-buttons">
+          <a href="https://www.linkedin.com/in/kaelensong/" target="_blank" class="cta-button">
+            <span>LinkedIn</span>
+            <span class="arrow">&rarr;</span>
+          </a>
+        </div>
+
+        <div class="about-info">
+          <div class="info-column">
+            <h4 class="info-label">Currently</h4>
+            <ul class="info-list">
+              <li>Motion Design</li>
+              <li>Video Editing</li>
+              <li>Social Content</li>
+              <li>Creative Marketing</li>
+            </ul>
+          </div>
+
+          <div class="info-column">
+            <h4 class="info-label">Tools</h4>
+            <ul class="info-list">
+              <li>After Effects</li>
+              <li>Premiere Pro</li>
+              <li>Photoshop</li>
+              <li>Canva</li>
+            </ul>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</section>
+
+ 
+        <!-- Contact Section -->
+        <section class="contact" id="contact">
+            <div class="contact-content">
+                <h2 class="contact-title">
+                    <!-- <span>Let's make something move</span> -->
+                    <p class="contact-subtitle">Looking forward to making something amazing  : )</p>
+                </h2>
+                
+                <div class="contact-button-container">
+                <div class="contact-cta">
+                    <a href="mailto:kaelensong@gmail.com" class="cta-button">
+                        <span>EMAIL ME</span>
+                        <span class="arrow">→</span>
+                    </a>
+                    <!-- <a href="mailto:kaelensong@gmail.com" class="contact-email">kaelensong@gmail.com</a> -->
+                </div>
+                <div class="linkedin-cta">
+                    <a href="https://www.linkedin.com/in/kaelensong/" target="_blank"class="cta-button">
+                        <span>LinkedIn</span>
+                        <span class="arrow">→</span>
+                    </a>
+                </div>
+                </div>
+            </div>
+        </section>
+    </main>
+ 
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-left">
+                <p class="footer-email">kaelensong@gmail.com</p>
+                <p class="footer-name">© 2026</p>
+            </div>
+            <div class="footer-right">
+                <p class="footer-services">MOTION / VIDEO / SOCIAL</p>
+                <p class="footer-year">2026</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
