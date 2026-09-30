@@ -26,7 +26,15 @@
                     <span></span>
                 </button>
                 <ul class="nav-menu" id="navMenu">
-                    <li><a href="#work" class="nav-link">Work</a></li>
+                    <li class="nav-item dropdown">
+                        <a href="#work" class="nav-link dropdown-toggle" id="workDropdownToggle" aria-expanded="false">
+                            Work <span class="dropdown-arrow">▾</span>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#work" class="dropdown-item">Video / Motion</a></li>
+                            <li><a href="#social" class="dropdown-item">Social</a></li>
+                        </ul>
+                    </li>
                     <li><a href="#about" class="nav-link">About</a></li>
                     <li><a href="#contact" class="nav-link">Contact</a></li>
                 </ul>
@@ -77,12 +85,12 @@
  
         <section class="selected-work" id="work">
             <div class="work-header">
-                <h2 class="section-title">Selected Work</h2>
+                <h2 class="section-title">Video / Motion</h2>
                 <div class="filter-buttons">
                     <button class="filter-btn active" data-filter="all">All</button>
-                    <button class="filter-btn" data-filter="motion">Motion</button>
                     <button class="filter-btn" data-filter="video">Video</button>
-                    <button class="filter-btn" data-filter="social">Social</button>
+                    <button class="filter-btn" data-filter="motion">Motion</button>
+                    <!-- <button class="filter-btn" data-filter="social">Social</button> -->
                 </div>
             </div>
  
@@ -221,8 +229,115 @@
                         </div>
                     </div>
                 </article>
+                <!-- Project 05 -->
+                <article class="project-item accent-coral" data-category="motion">
+                    <div class="project-number-large">03</div>
+                    <div class="project-content">
+                        <div class="project-visual">
+                            <a href="projects/stepping-stones.html" class="project-img-btn">
+                                <img src="images/stepping-stones.png"  
+                                    class="project-image" 
+                                    alt="Stepping Stones Game Tutorial Thumbnail">
+                            </a>
+                        </div>
+                        <div class="project-info">
+                            <div class="project-header">
+                                <div class="project-title-group">
+                                    <span class="project-number">05</span>
+                                    <h3 class="project-title">Stepping Stones: How to Play</h3>
+                                </div>
+                            </div>
+                            <p class="project-description">A tutorial video created for a Tufts Computer Science department game project, Stepping Stones. </p>
+                            <div class="project-meta">
+                                <span class="meta-tag">Video Production</span>
+                                <span class="meta-tag">Animation</span>
+                                <span class="meta-year">2026</span>
+                            </div>
+                            <a href="projects/stepping-stones.html" class="project-link">
+                                <span>VIEW PROJECT</span>
+                                <span class="arrow">→</span>
+                            </a>
+                        </div>
+                    </div>
+                </article>
             </div>
         </section>
+
+        <!-- Social Content Section -->
+        <section class="social-content" id="social">
+            <div class="social-header">
+                <h2 class="section-title">Social / Content</h2>
+                <!--
+                <a href="#" class="cta-button">
+                    <span>VIEW SOCIAL WORK</span>
+                    <span class="arrow">→</span>
+                </a>
+                -->
+            </div>
+
+            <div class="social-grid">
+
+                <!-- Video 01 — YouTube -->
+                <div class="social-item">
+                    <iframe
+                        src="https://www.youtube.com/embed/gKU7RBNeFhw"
+                        title="Social Media Video 4"
+                        frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen>
+                    </iframe>
+                </div>
+
+
+                <!-- Video 02 — TikTok -->
+                <div class="social-item">
+                    <blockquote
+                        class="tiktok-embed"
+                        cite="https://www.tiktok.com/@worldpeacefdtn/video/7607976168398130446"
+                        data-video-id="7607976168398130446">
+                        <section></section>
+                    </blockquote>
+                </div>
+
+                <!-- Video 03 — TikTok -->
+                <div class="social-item">
+                    <blockquote
+                        class="tiktok-embed"
+                        cite="https://www.tiktok.com/@climatecents/video/6854621095404915974"
+                        data-video-id="6854621095404915974">
+                        <section></section>
+                    </blockquote>
+                </div>
+
+                <!-- Video 04 — YouTube Shorts -->
+                <div class="social-item">
+                    <iframe
+                        src="https://www.youtube.com/embed/c5ggCLKT2rg"
+                        title="Social Media Video 5"
+                        frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen>
+                    </iframe>
+                </div>
+
+                <!-- Video 05 — YouTube Shorts -->
+                <div class="social-item">
+                    <iframe
+                        src="https://www.youtube.com/embed/MzBm7i-Yy7g"
+                        title="Social Media Video 1"
+                        frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen>
+                    </iframe>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- TikTok embed script -->
+        <script async src="https://www.tiktok.com/embed.js"></script>
+        ```
+
  
         <!-- What I Do Section -->
         <!-- <section class="what-i-do" id="what-i-do">

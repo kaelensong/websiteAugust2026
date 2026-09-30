@@ -313,3 +313,44 @@ document.addEventListener('DOMContentLoaded', () => {
     // Force scrollbar to always show to prevent layout shift
     document.documentElement.style.scrollbarGutter = 'stable';
 });
+
+// =============================================
+// DROPDOWN MENU INTERACTION
+// =============================================
+
+const dropdownItems = document.querySelectorAll('.nav-item.dropdown');
+
+dropdownItems.forEach(dropdown => {
+    const toggle = dropdown.querySelector('.dropdown-toggle');
+    const menu = dropdown.querySelector('.dropdown-menu');
+
+    toggle.addEventListener('click', (e) => {
+        // On mobile or touch screens, toggle sub-menu instead of jumping immediately
+        if (window.innerWidth <= 768) {
+            e.preventDefault();
+            dropdown.classList.toggle('active');
+            const isExpanded = dropdown.classList.contains('active');
+            toggle.setAttribute('aria-expanded', isExpanded);
+        }
+    });
+});
+
+// Close dropdowns when clicking outside
+document.addEventListener('click', (e) => {
+    if (!e.target.closest('.nav-item.dropdown')) {
+        dropdownItems.forEach(dropdown => {
+            dropdown.classList.remove('open', 'active');
+            const toggle = dropdown.querySelector('.dropdown-toggle');
+            if (toggle) toggle.setAttribute('aria-expanded', 'false');
+        });
+    }
+});
+
+// Close entire mobile menu when any dropdown sub-item is clicked
+document.querySelectorAll('.dropdown-item').forEach(item => {
+    item.addEventListener('click', () => {
+        hamburger.classList.remove('active');
+        navMenu.classList.remove('active');
+        dropdownItems.forEach(dropdown => dropdown.classList.remove('active'));
+    });
+});
