@@ -984,6 +984,15 @@ section {
     color: var(--accent-coral);
 }
 
+.accent-lime .project-number {
+    color: var(--accent-lime);
+}
+
+.accent-yellow .project-number {
+    color: var(--accent-yellow);
+}
+
+
 /* =============================================
    WHAT I DO SECTION
    ============================================= */
