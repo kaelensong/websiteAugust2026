@@ -1058,41 +1058,6 @@ section {
 /* =============================================
    SOCIAL / CONTENT SECTION
    ============================================= */
-
-/* .social-content {
-    background-color: var(--color-bg);
-}
-
-.social-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: var(--spacing-xl);
-    gap: var(--spacing-lg);
-}
-
-.social-grid {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: var(--spacing-md);
-}
-
-.social-item {
-    aspect-ratio: 9 / 16;
-    border-radius: var(--radius-lg);
-    transition: all var(--transition-normal);
-    cursor: pointer;
-    max-height: 80vh;
-}
-
-.social-item:hover {
-    transform: translateY(-8px);
-    box-shadow: 0 16px 40px rgba(0, 0, 0, 0.08);
-} */
-
-/* =============================================
-   SOCIAL / CONTENT SECTION
-   ============================================= */
 .social-header {
     display: flex;
     justify-content: space-between;
@@ -1115,6 +1080,7 @@ section {
     aspect-ratio: 9 / 16;
     overflow: hidden;
     border-radius: var(--radius-lg);
+    border: 1px solid var(--color-text);
     background-color: #000;
     transition: transform var(--transition-normal),
                 box-shadow var(--transition-normal);
