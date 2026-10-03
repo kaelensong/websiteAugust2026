@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<!-- halloween.html -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Halloween Experience — Kaelen Song</title>
+    <link rel="stylesheet" href="../style/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600;700&family=Nova+Mono&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Average+Sans&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" href="../images/favicon.png">
+    <style>
+        /* Page-specific: embedded spreadsheet */
+        .sheet-embed {
+            width: 100%;
+            height: 600px;
+            border: none;
+            border-radius: var(--radius-lg);
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        }
+        .sheet-link {
+            display: inline-block;
+            margin-top: var(--spacing-sm);
+            text-decoration: underline;
+        }
+        .blog-body.stacked { grid-template-columns: 1fr; }
+        @media (max-width: 768px) {
+            .sheet-embed { height: 450px; }
+        }
+    </style>
+</head>
+<body class="project-page">
+    <!-- Navigation -->
+    <nav class="navigation">
+        <div class="nav-container">
+            <div class="nav-left">
+                <a href="/" class="nav-logo">KAELEN SONG</a>
+            </div>
+            <div class="nav-right">
+                <button class="hamburger" id="hamburger">
+                    <span></span>
+                    <span></span>
+                </button>
+                <ul class="nav-menu" id="navMenu">
+                    <li class="nav-item dropdown">
+                        <a href="/#work" class="nav-link dropdown-toggle" id="workDropdownToggle" aria-expanded="false">
+                            Work <span class="dropdown-arrow">▾</span>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a href="/#work" class="dropdown-item">Video / Motion</a></li>
+                            <li><a href="/#social" class="dropdown-item">Social</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="/#about" class="nav-link">About</a></li>
+                    <li><a href="/#contact" class="nav-link">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="horiz-line">
+            <ul class="dot-container">
+            </ul>
+        </div>
+    </nav>
+
+    <main>
+        <!-- Project Hero -->
+        <section class="project-hero">
+            <div class="project-hero-content">
+                <div class="project-hero-label">
+                    <span class="label-number">06</span>
+                    <span class="label-divider">/</span>
+                    <span class="label-category">Production, Video Editing, Live Performance</span>
+                </div>
+                <h1 class="project-hero-title">Interactive Halloween Experience</h1>
+                <p class="project-hero-subtitle">A production case study: an interactive Halloween event combining live performance, embedded digital media and interactive narrative, produced end to end from scriptwriting to live execution.</p>
+            </div>
+        </section>
+
+        <!-- Project Media -->
+        <section class="project-media">
+            <div class="media-container">
+                <img src="/images/HalloweenCover.jpg" alt="Halloween Experience" class="project-media-image">
+            </div>
+        </section>
+
+        <!-- Project Information -->
+        <section class="project-info-section">
+            <div class="info-grid">
+                <div class="info-item">
+                    <h4 class="info-label">Project</h4>
+                    <p>Interactive Halloween Experience &amp; Performance</p>
+                </div>
+                <div class="info-item">
+                    <h4 class="info-label">Role</h4>
+                    <p>Producer, Technical Lead, Co-Director &amp; Co-Writer</p>
+                </div>
+                <div class="info-item">
+                    <h4 class="info-label">Focus</h4>
+                    <p>Production Management, AV Setup, Video Editing</p>
+                </div>
+                <div class="info-item">
+                    <h4 class="info-label">Year</h4>
+                    <p>2025</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- The Project Background -->
+        <section class="project-description">
+            <div class="description-content">
+                <h2 class="section-title">Overview</h2>
+                <p class="description-text">
+                    A few friends and I thought it would be fun to put together an interactive Halloween experience. We combined live performances, embedded digital media and interactive narrative elements.
+                    The concept of the halloween experience was that through a series of clues and events, attendees would slowly learn that there was something strange (and hopefully a bit scary) unfolding
+                    around them. The night would escalate with a series of these strange things showing up at the door. 
+                </p>
+            </div>
+        </section>
+
+        <!-- Key Contributions (Blog Style) -->
+        <section class="project-process">
+            <div class="process-content">
+                <h2 class="section-title">Key Contributions</h2>
+                <p>My main role was overseeing the production pipeline -- making sure everything that needed to get done got done (costume productioin, equipment procurement, multi-site AV setup, etc.).</p>
+                <div class="blog-posts">
+                    <!-- Contribution 1: Production Management -->
+                    <article class="blog-item">
+                        <h3 class="blog-title">Production Management &amp; Operations</h3>
+                        <div class="blog-body stacked">
+                            <div class="blog-text">
+                                <p>I built and maintained the master task tracking and logistics framework to manage timelines across prop fabrication, media acquisition, equipment checkout, stage management handoffs, and neighbor/venue communications.</p>
+                                <p>I began by laying out the main categories of production:</p>
+                                <ul class="blog-list">
+                                    <li>Costumes + Prop Fabrication</li>
+                                    <li>Set Design</li>
+                                    <li>Video and Sound Production</li>
+                                    <li>Tech Setup (lighting, sound, cameras)</li>
+                                    <li>Things we needed to ACQUIRE</li>
+                                    <li>Things we needed to BUY</li>
+                                    <li>Finally, all the devices we needed to charge</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="blog-body stacked">
+                            <div class="blog-visual" style="flex-direction: column; align-items: stretch;">
+                                <iframe
+                                    class="sheet-embed"
+                                    src="https://docs.google.com/spreadsheets/d/199TJnuTrvF0xdtQbOQ-UlfalH6qcxfln/preview"
+                                    title="TODO Master Spreadsheet"
+                                    loading="lazy">
+                                </iframe>
+                                <a class="sheet-link" href="https://docs.google.com/spreadsheets/d/199TJnuTrvF0xdtQbOQ-UlfalH6qcxfln/edit?usp=sharing&amp;ouid=116304233693403472313&amp;rtpof=true&amp;sd=true" target="_blank" rel="noopener noreferrer">Open the TODO Master Spreadsheet in a new tab →</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Contribution 2: Technical Research & AV -->
+                    <article class="blog-item">
+                        <h3 class="blog-title">Technical Research &amp; AV Setup</h3>
+                        <div class="blog-body stacked">
+                            <div class="blog-text">
+                                <p>I researched and managed checkout of lighting, sound, and AV equipment across two gear facilities, then coordinated and directed the tech setup using the spreadsheet above to make sure I didn't miss anything!</p>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Contribution 3: Video Production -->
+                    <article class="blog-item">
+                        <h3 class="blog-title">Video Production &amp; Editing</h3>
+                        <div class="blog-body">
+                            <div class="blog-visual">
+                                <iframe
+                                    src="https://www.youtube.com/embed/X6iePsJrOjA"
+                                    title="News Broadcast 1"
+                                    frameborder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                    referrerpolicy="strict-origin-when-cross-origin"
+                                    allowfullscreen>
+                                </iframe>
+                            </div>
+                            <div class="blog-text">
+                                <p>I led video production and editing like this one: News Broadcast 1 is one of the first embedded media pieces that introduces the main plotline.</p>
+                            </div>
+                        </div>
+                        <div class="blog-body">
+                            <div class="blog-visual">
+                                <iframe
+                                    src="https://www.youtube.com/embed/qPfTZyoqQEQ"
+                                    title="News Broadcast 1 Live"
+                                    frameborder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                    referrerpolicy="strict-origin-when-cross-origin"
+                                    allowfullscreen>
+                                </iframe>
+                            </div>
+                            <div class="blog-text">
+                                <p>News Broadcast 1, live: the same piece as it played during the event.</p>
+                            </div>
+                        </div>
+                        <div class="blog-body">
+                            <div class="blog-visual">
+                                <iframe
+                                    src="https://www.youtube.com/embed/p48MDAAc6GY"
+                                    title="Sacrifice Enters House"
+                                    frameborder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                    referrerpolicy="strict-origin-when-cross-origin"
+                                    allowfullscreen>
+                                </iframe>
+                            </div>
+                            <div class="blog-text">
+                                <p>Sacrifice Enters House: a key moment where the performance and the digital media came together.</p>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Credits Section -->
+        <section class="project-credits">
+            <div class="credits-content">
+                <h2 class="section-title">Credits</h2>
+                <div class="credits-grid">
+                    <div class="credit-item">
+                        <h4 class="info-label">Producer / Technical Lead</h4>
+                        <p>Kaelen Song</p>
+                    </div>
+                    <div class="credit-item">
+                        <h4 class="info-label">Directors / Writers</h4>
+                        <p>Kaelen Song, Halla Clausi, Vivian Becker, Moli Ma</p>
+                    </div>
+                    <div class="credit-item">
+                        <h4 class="info-label">Live Sound / DJ</h4>
+                        <p>Quinn Kessel, Sadi</p>
+                    </div>
+                    <div class="credit-item">
+                        <h4 class="info-label">Feauturing + Special Thanks</h4>
+                        <p>Karina Malm, Jack Foust, Avery Westhagen, Lisa Massarchia, Daniel Barszczak</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Next Project Navigation -->
+        <section class="project-navigation">
+            <a href="/#work" class="next-project">
+                <span>Back to Work</span>
+                <span class="arrow">→</span>
+            </a>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-left">
+                <p class="footer-email">kaelensong@gmail.com</p>
+                <p class="footer-name">© 2026</p>
+            </div>
+            <div class="footer-right">
+                <p class="footer-services">Motion / Video / Social</p>
+                <p class="footer-year">2026</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../js/main.js"></script>
+</body>
+</html>
